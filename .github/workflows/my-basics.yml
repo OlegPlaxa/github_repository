@@ -28,6 +28,7 @@ jobs:
       run : |
         echo "Hello Message1"
         echo "Hello Message2"
+        echo "Hello Message3"
         echo "Appication name: ${{ env.APPLICATION_NAME }}"
     
     - name: List current folder
