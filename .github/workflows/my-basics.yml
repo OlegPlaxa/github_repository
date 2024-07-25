@@ -35,7 +35,7 @@ jobs:
       run : ls -la
    
     - name: Git clone my repo
-      uses: action/checkout@v1 
+      uses: actions/checkout@v1 
   
     - name: List current folder
       run : ls -la
